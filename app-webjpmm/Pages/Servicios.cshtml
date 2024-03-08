@@ -1,8 +1,65 @@
 ﻿@page
-@model PrivacyModel
+@model IndexModel
 @{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Home page";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>A la mama de Fabian le gusta el pene enorme</p>
+<!-- Agrega este código dentro de tu vista "Servicios.cshtml" o en la sección correspondiente de tu aplicación -->
+<section class="web-design-section">
+    <div class="container">
+        <h2 class="section-title">Diseño de Páginas Web</h2>
+
+        <div class="row">
+            <!-- Diseño de Páginas Web -->
+            <div class="col-md-6">
+                <p class="service-description">
+                    Diseñamos Páginas Web integrales con enfoque comercial para diferenciarte en el mercado.
+                </p>
+                <a href="#" class="btn btn-primary">COTIZAR</a>
+            </div>
+            <div class="col-md-6">
+                <img src="~/img/serviciosimagen1.jpg" alt="Diseño de Páginas Web" class="img-fluid">
+            </div>
+        </div>
+
+        <section class="success-section">
+            <div class="container">
+                <h2 class="section-title">CREAMOS TU CAMINO AL ÉXITO</h2>
+                <p class="section-subtitle">Más de 10 Años y 200 Clientes</p>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <p class="service-description">
+                            Diseñamos el Sitio Web que necesitas. Contamos con la experiencia y los profesionales más capacitados para brindarte un servicio integral de Marketing Digital y Diseño Web que te permita diferenciarte en el mercado.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <img src="~/img/imagenservicio3.webp" alt="Camino al Éxito" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Qué incluyen nuestros proyectos -->
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h3 class="sub-section-title">¿Qué incluyen nuestros proyectos?</h3>
+                <ul class="project-includes">
+                    <li>Diseño Personalizado</li>
+                    <li>Asesoría</li>
+                    <li>Capacitación</li>
+                    <li>Garantía (hasta 1 año)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Solicitar cotización -->
+        <div class="row mt-4">
+            <div class="col-md-12 text-center">
+                <a href="#" class="btn btn-primary btn-lg">Solicitar cotización</a>
+            </div>
+        </div>
+    </div>
+</section>
