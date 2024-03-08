@@ -43,3 +43,23 @@ body {
     max-height: 30px; /* Ajusta la altura según sea necesario */
     margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
 }
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Añadido para asegurar que la imagen no desborde el contenedor */
+}
+
+    .image-container img {
+        width: 100%;
+        height: auto; /* Para mantener la proporción de la imagen */
+    }
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 1.5%;
+    transform: translateY(-50%);
+    color: white;
+}
