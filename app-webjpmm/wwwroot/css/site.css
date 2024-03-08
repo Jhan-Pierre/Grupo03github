@@ -12,6 +12,7 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+
 html {
   position: relative;
   min-height: 100%;
@@ -19,4 +20,26 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+.navbar-brand img {
+    max-height: 40px; /* Ajusta la altura según sea necesario */
+    margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+}
+
+.navbar-brand .company-name {
+    font-size: 1.5rem; /* Ajusta el tamaño del texto según sea necesario */
+    line-height: 40px; /* Ajusta la altura de línea según sea necesario */
+    color: #fff; /* Cambia el color del texto según sea necesario */
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    padding: 10px 0;
+}
+
+/* Estilo para los enlaces en la parte superior derecha */
+.navbar-nav.img-links img {
+    max-height: 30px; /* Ajusta la altura según sea necesario */
+    margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
 }

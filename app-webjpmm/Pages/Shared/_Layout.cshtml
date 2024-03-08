@@ -7,26 +7,52 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/app_webjpmm.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">app_webjpmm</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+            <div class="container-fluid">
+                <!-- Agrega el logo y el nombre de la empresa -->
+                <a class="navbar-brand" href="#">
+                    <img src="img/S.A.C.png" alt="Logo">
+                    <span class="text-black company-name">CodeCreators</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                            <a class="text-black nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a class="text-black nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-black nav-link" href="#">Disabled</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-black nav-link" href="#">Contacto</a>
                         </li>
                     </ul>
                 </div>
+
+                <!-- Agrega enlaces con imágenes a la derecha -->
+                <ul class="navbar-nav ml-auto img-links">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-facebook" style="color: #000;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-twitter" style="color: #000;"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
