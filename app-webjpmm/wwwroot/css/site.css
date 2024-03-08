@@ -1,59 +1,134 @@
-html {
-  font-size: 14px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
 }
+
+body {
+    background: #c7d2dbd8;
+    color: #000000;
+}
+
+section {
+    min-height: 85vh;
+}
+
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-img {
+    margin-left: 11rem;
+}
+
+.home-img img {
+    width: 30vw;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2.4rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.home-content h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+    .home-content h3:nth-of-type(2) {
+        margin-bottom: 2rem;
+    }
+
+span {
+    color: #6676f9;
+}
+
+.home-content h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+p {
+    padding: 0 0 15px 0;
+}
+
+.home-content p {
+    font-size: 1.6rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #6676f9;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem #6676f9;
+    font-size: 1.6rem;
+    color: #323946;
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
+
+    .btn:hover {
+        box-shadow: none;
+    }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-}
-
 .navbar-brand img {
-    max-height: 40px; /* Ajusta la altura según sea necesario */
-    margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+    max-height: 40px;
+    margin-right: 10px;
 }
 
 .navbar-brand .company-name {
-    font-size: 1.5rem; /* Ajusta el tamaño del texto según sea necesario */
-    line-height: 40px; /* Ajusta la altura de línea según sea necesario */
-    color: #fff; /* Cambia el color del texto según sea necesario */
+    font-size: 1.5rem;
+    line-height: 40px;
+    color: #fff;
 }
 
-/* Estilo para la barra de navegación */
 .navbar {
     padding: 10px 0;
 }
 
-/* Estilo para los enlaces en la parte superior derecha */
 .navbar-nav.img-links img {
-    max-height: 30px; /* Ajusta la altura según sea necesario */
-    margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+    max-height: 30px;
+    margin-right: 10px;
 }
 
 
 .image-container {
     position: relative;
     width: 100%;
-    overflow: hidden; /* Añadido para asegurar que la imagen no desborde el contenedor */
+    overflow: hidden;
 }
 
     .image-container img {
         width: 100%;
-        height: auto; /* Para mantener la proporción de la imagen */
+        height: auto;
     }
 
 .overlay-text {
@@ -62,4 +137,8 @@ body {
     left: 1.5%;
     transform: translateY(-50%);
     color: white;
+}
+
+.nav-link {
+    font-size: 16px; /* Ajusta este valor a tu gusto */
 }

@@ -12,11 +12,11 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom mx-auto" style="width: 70%;">
             <div class="container-fluid">
                 <!-- Agrega el logo y el nombre de la empresa -->
                 <a class="navbar-brand" href="#">
-                    <img src="img/S.A.C.png" alt="Logo">
+                    <img src="~/img/logo_6676F9.svg" alt="Logo">
                     <span class="text-black company-name">CodeCreators</span>
                 </a>
 
@@ -40,9 +40,6 @@
                         </li>
                     </ul>
                 </div>
-
-
-                <!-- Agrega enlaces con imágenes a la derecha -->
                 <ul class="navbar-nav ml-auto img-links">
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.facebook.com/fabian.ambrosio.796">
@@ -58,6 +55,8 @@
             </div>
         </nav>
     </header>
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -69,7 +68,8 @@
             &copy; 2024 - CodeCreators - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
