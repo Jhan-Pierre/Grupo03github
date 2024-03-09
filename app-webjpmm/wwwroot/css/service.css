@@ -1,0 +1,148 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: #c7d2dbd8;
+    color: #000000;
+}
+
+section {
+    min-height: 8vh;
+}
+
+
+/* Estilos para la sección de Diseño de Páginas Web */
+.web-design-section {
+    padding: 50px 0;
+    text-align: center; /* Alineación centrada */
+}
+
+    .web-design-section .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .web-design-section .section-title {
+        font-size: 50px;
+        color: #000000;
+    }
+
+    .web-design-section .section-subtitle {
+        font-size: 28px;
+        color: #007bff;
+    }
+
+    .web-design-section .service-description {
+        font-size: 25px;
+        color: #6c757d;
+        text-align: justify; /* Alineación justificada */
+        margin-top: 20px; /* Espaciado superior */
+    }
+
+    .web-design-section .col-md-6 {
+        flex: 0 0 48%; /* Ajustar el ancho de la columna */
+    }
+
+    .web-design-section .img-fluid {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 20px; /* Espaciado superior para la imagen */
+    }
+
+
+.web-design-section {
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center; /* Alineación a la izquierda */
+}
+
+.service-description {
+    font-size: 18px;
+    color: #6c757d;
+    text-align: left; /* Alineación a la izquierda */
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos para la sección de CREAMOS TU CAMINO AL ÉXITO */
+.success-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.section-subtitle {
+    font-size: 24px;
+    color: #007bff;
+    text-align: left; /* Alineación a la izquierda */
+}
+
+.sub-section-title {
+    font-size: 24px;
+    color: #343a40;
+    margin-top: 30px;
+    text-align: left; /* Alineación a la izquierda */
+}
+
+/* Estilos para la sección de Lo que ofrecemos */
+.offer-section {
+    padding: 50px 0;
+}
+
+.offer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.left-column,
+.right-column {
+    width: 48%; /* Ajusta según tus necesidades */
+}
+
+.offer-list {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 20px; /* Ajusta el valor según sea necesario */
+}
+
+    .offer-list li {
+        margin-bottom: 30px;
+    }
+
+        .offer-list li strong {
+            display: block;
+            font-size: 18px;
+            color: #343a40;
+        }
+
+        .offer-list li p {
+            font-size: 16px;
+            color: #6c757d;
+        }
+
+
