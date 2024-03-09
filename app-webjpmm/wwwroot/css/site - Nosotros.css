@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+body {
+    font-family: 'Bebas Neve';
+    background-color: gainsboro;
+}
+
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.7)
+    ),
+      url('../img/oficinas-mesa-vacia-728.jpg'); /* Ruta relativa al archivo CSS */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-content {
+    text-align: center;
+}
+
+header-txt span {
+    font-size: 50px;
+    color: #FEDAB6;
+}
+
+.header-txt h1 {
+    font-size: 120px;
+    line-height: 120px;
+    color: #F1ECDC;
+}
+
+.general {
+    padding: 100px 0;
+    display: flex;
+}
+
+.general-img {
+    width: 50%;
+    text-align: center;
+}
+
+.general-txt {
+    width: 50%;
+}
+
+.general-txt p {
+    font-size: 18px;
+    color: black;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.plan-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-1 {
+    padding: 25px;
+}
+
+.plan-1 h2 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-1 p {
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
