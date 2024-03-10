@@ -114,13 +114,21 @@ p {
 
 .navbar {
     padding: 10px 0;
+    border-bottom: 2px solid #007bff;
 }
 
 .navbar-nav.img-links img {
     max-height: 30px;
     margin-right: 10px;
 }
+.navbar-nav .nav-link {
+    font-size: 18px;
+    transition: text-decoration 0.3s; /* Agregamos transición para un cambio suave */
+}
 
+    .navbar-nav .nav-link:hover {
+        text-decoration: underline /* Subrayamos el enlace al pasar el cursor sobre él */
+    }
 .btn-wsp {
     position: fixed;
     width: 60px;
